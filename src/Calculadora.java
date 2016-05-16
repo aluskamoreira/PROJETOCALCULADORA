@@ -23,5 +23,6 @@ public class Calculadora {
 			potencia = potencia * valor1;
 		}
 		return potencia;
+	}	
 
 }
