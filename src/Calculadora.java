@@ -17,6 +17,11 @@ public class Calculadora {
 		return valor1 - valor2;
 	}
 	
-	
+	public int potencia(int valor1, int valor2) {
+		int potencia = 1;
+		for (int i = 0; i < valor2; i++) {
+			potencia = potencia * valor1;
+		}
+		return potencia;
 
 }
