@@ -13,7 +13,7 @@ public class Main {
 		Scanner leitor = new Scanner(System.in);
 		
 		while (vaiParaProximo) {
-			System.out.println("Qual operação você quer realizar?\n "
+			System.out.println("Qual operaÃ§Ã£o vocÃª quer realizar?\n "
 					+ "1-somar;\n 2-subtrair;");
 			int operacao = leitor.nextInt();
 			double valor1, valor2;
@@ -32,13 +32,22 @@ public class Main {
 
 				imprime("subtrair", calc.subtrair(valor1, valor2));
 				break;
+			case 3:
+				System.out.println("Insira o 1Âº valor: ");
+				int v1 = leitor.nextInt();
+
+				System.out.println("Insira o 2Âº valor: ");
+				int v2 = leitor.nextInt();
+
+				imprime("potÃªncia", calc.potencia(v1, v2));
+				break;
 
 			default:
-				System.out.println("Operação inválida! Tente novamente!");
+				System.out.println("OperaÃ§Ã£o invÃ¡lida! Tente novamente!");
 				break;
 			}
 
-			System.out.println("Você quer realizar outra operação? [s|n]");
+			System.out.println("VocÃª quer realizar outra operaÃ§Ã£o? [s|n]");
 			String continua = leitor.next();
 
 			if (!continua.equals("s")) {
@@ -69,7 +78,7 @@ public class Main {
 				valor = leitor.nextDouble();
 				naoEDouble = false;
 			} catch (Exception e) {
-				System.out.println("Double não é válido!");
+				System.out.println("Double nÃ£o Ã© vÃ¡lido!");
 			}
 		}
 		return valor;
