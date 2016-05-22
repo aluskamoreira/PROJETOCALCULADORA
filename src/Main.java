@@ -41,7 +41,12 @@ public class Main {
 
 				imprime("potência", calc.potencia(v1, v2));
 				break;
+			case 4:
+				valor1 = lerDouble();
+				valor2 = lerDouble();
 
+				imprime("divisão", calc.dividir(valor1, valor2));
+				break;
 			default:
 				System.out.println("Operação inválida! Tente novamente!");
 				break;
