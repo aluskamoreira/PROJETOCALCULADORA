@@ -47,6 +47,7 @@ public class Main {
 
 				imprime("divisão", calc.dividir(valor1, valor2));
 				break;
+case 5
 			default:
 				System.out.println("Operação inválida! Tente novamente!");
 				break;
