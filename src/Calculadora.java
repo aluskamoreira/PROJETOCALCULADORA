@@ -35,4 +35,8 @@ public class Calculadora {
 		return valor % 2 == 0;
 	}
 //Testando a calculadora!
+
+	public String toString() {
+		return "Calculadora de " + proprietario;
+	}
 }
