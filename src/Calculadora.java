@@ -34,5 +34,5 @@ public class Calculadora {
 	public boolean ehPar(int valor) {
 		return valor % 2 == 0;
 	}
-
+//Testando a calculadora!
 }
