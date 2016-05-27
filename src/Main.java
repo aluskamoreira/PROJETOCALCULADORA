@@ -50,7 +50,12 @@ public class Main {
 
 				imprime("divisão", calc.dividir(valor1, valor2));
 				break;
-case 5
+			case 5:
+				valor1 = lerDouble();
+				valor2 = lerDouble();
+
+				imprime("multiplicação", calc.multiplicar(valor1, valor2));
+				break;
 			default:
 				System.out.println("Operação inválida! Tente novamente!");
 				break;
