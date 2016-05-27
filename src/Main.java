@@ -18,6 +18,9 @@ public class Main {
 			int operacao = leitor.nextInt();
 			double valor1, valor2;
 			
+			
+			//Casos relacionados á cada operação matemática.
+			
 			switch (operacao) {
 			case 1:
 				valor1 = lerDouble();
