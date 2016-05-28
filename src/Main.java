@@ -47,10 +47,10 @@ public class Main {
 			
 			
 			case 4:
-				valor1 = lerDouble();
-				valor2 = lerDouble();
+				valor1=lerDouble();
+				valor2=lerDouble();
 
-				imprime("divisão", calc.dividir(valor1, valor2));
+				imprime("divisão",calc.dividir(valor1, valor2));
 				break;
 				
 				
