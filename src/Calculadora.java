@@ -23,7 +23,7 @@ public class Calculadora {
 	public double multiplicar(double valor1, double valor2) {
 		return valor1 * valor2;
 	}
-	
+	//aqui faz a potencia com 0 valor 1 x o valor 2
 	public int potencia(int valor1, int valor2) {
 		int potencia = 1;
 		for (int i = 0; i < valor2; i++) {
