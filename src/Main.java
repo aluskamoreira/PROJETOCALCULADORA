@@ -63,6 +63,14 @@ public class Main {
 			default:
 				System.out.println("Operação inválida! Tente novamente!");
 				break;
+			
+			
+			case 6:
+				System.out.println("Insira o valor: ");
+				int valor = leitor.nextInt();
+
+				System.out.println("O resultado de ehPar foi: " + calc.ehPar(valor));
+				break;
 			}
 
 			System.out.println("Você quer realizar outra operação? [s|n]");
