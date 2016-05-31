@@ -32,7 +32,7 @@ public class Calculadora {
 		return potencia;
 	}
 	
-	
+	//Divisão implementação
 	
 	public double dividir(double valor1, double valor2) {
 		return valor1 / valor2;
