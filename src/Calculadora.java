@@ -39,7 +39,7 @@ public class Calculadora {
 		
 	}
 	
-	
+	//Informar o resultado de uma operação par, onde o resto seja zero.
 	public boolean ehPar(int valor) {
 		return valor % 2 == 0;
 	}
