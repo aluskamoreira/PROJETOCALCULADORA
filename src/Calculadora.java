@@ -18,6 +18,8 @@ public class Calculadora {
 	public double subtrair(double valor1, double valor2) {
 		return valor1 - valor2;
 	}
+	//executar subtrae de dois valores e obter resultado.
+	
 	
 	//aqui multiplica o valor 1 x o valor 2
 	public double multiplicar(double valor1, double valor2) {
