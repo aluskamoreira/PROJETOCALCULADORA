@@ -45,6 +45,9 @@ public class Calculadora {
 	public boolean ehPar(int valor) {
 		return valor % 2 == 0;
 	}
+	while (x > 1){ 
+  f = f *(x-1); x--; 
+                    } 
 //Testando a calculadora!
 
 	public String toString() {
