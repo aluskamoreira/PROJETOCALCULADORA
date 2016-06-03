@@ -37,6 +37,7 @@ public class Main {
 
 				imprime("subtrair", calc.subtrair(valor1, valor2));
 				break;
+	// implementação da potencia;
 			case 3:
 				System.out.println("Insira o 1º valor: ");
 				int v1 = leitor.nextInt();
@@ -46,7 +47,7 @@ public class Main {
 
 				imprime("potência", calc.potencia(v1, v2));
 				break;
-			
+	// implementação da divisão.		
 			
 			case 4:
 				valor1=lerDouble();
@@ -55,7 +56,7 @@ public class Main {
 				imprime("divisão",calc.dividir(valor1, valor2));
 				break;
 				
-				
+	//implementaçao da multiplicação;			
 			case 5:
 				valor1 = lerDouble();
 				valor2 = lerDouble();
