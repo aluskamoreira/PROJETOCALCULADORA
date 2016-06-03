@@ -9,23 +9,23 @@ public class Calculadora {
 		proprietario = nome;
 	}
 	
+	//Executar a soma de dois valores e obter resultado.
 	public double somar(double valor1, double valor2) {
 		return valor1 + valor2;
 	}
 	
-	//executar a soma de dois valores e obter resultado.
 	
+	//Executar subtração de dois valores e obter resultado.
 	public double subtrair(double valor1, double valor2) {
 		return valor1 - valor2;
 	}
-	//executar subtrae de dois valores e obter resultado.
 	
 	
-	//aqui multiplica o valor 1 x o valor 2
+	//Multiplica o valor 1 pelo o valor 2
 	public double multiplicar(double valor1, double valor2) {
 		return valor1 * valor2;
 	}
-	//aqui faz a potencia com 0 valor 1 x o valor 2
+	//Potencia com valor 1 x o valor 2
 	public int potencia(int valor1, int valor2) {
 		int potencia = 1;
 		for (int i = 0; i < valor2; i++) {
@@ -35,7 +35,6 @@ public class Calculadora {
 	}
 	
 	//Divisão implementação
-	
 	public double dividir(double valor1, double valor2) {
 		return valor1 / valor2;
 		
@@ -48,7 +47,7 @@ public class Calculadora {
 	while (x > 1){ 
   f = f *(x-1); x--; 
                     } 
-//Testando a calculadora!
+	//Testando a calculadora!
 
 	public String toString() {
 		return "Calculadora de " + proprietario;
