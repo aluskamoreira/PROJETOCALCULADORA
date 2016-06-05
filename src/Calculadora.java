@@ -56,3 +56,5 @@ public class Calculadora {
 		return "Calculadora de " + proprietario;
 	}
 }
+
+//Projeto calculadora concluído.
